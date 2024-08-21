@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY BOTIQUE</title>
+    <link rel="website icon" type="jpg" href="images/blue  1.jpg">
+
+    <!--Gooogle fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--My css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>MY BOTIQUE</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">HOME</a></p>
+            <p class="navbar-link"><a href="collection.html">COLLECTIONS</a></p>
+            <p class="navbar-link"><a href="contact.html">CONTACT US</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side navbar-->
+        <div class="side-navbar">
+        <p style="text-align:left;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+            <div class="side-navbar-links">
+                <p class="side-navbar-link"><a href="index.html">HOME</a></p>
+                <p class="side-navbar-link"><a href="collection.html">COLLECTIONS</a></p>
+                <p class="side-navbar-link"><a href="contact.html">CONTACT US</a></p>
+            </div>
+        </div>
+    </div> 
+    
+    <!--contact-->
+    <centre>
+    <div class="contact">
+        <form>
+            <h1>CONTACT US </h1>
+            <hr>
+            <table class="table">
+            <tr>
+                <td>name:</td>
+                <td><input type="text" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td>Email id:</td>
+                <td><input type="email" placeholder="Enter your email id"></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+                <td><input type="text" placeholder="write message"><td></td>
+            </tr>  
+            <td><input type="submit"></td> 
+            <td><input type="reset"></td>
+            </table>
+        </form>
+    </div>
+    </centre>
+
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2 class="headingtext">MY BOTIQUE</h2>
+                <p>Elevate your style with collection of our botique//ELEVATE YOUR WARDROBE//with our stunning collection</p>
+                <div class="footer-icons-container">
+                     <i class="fa-brands fa-square-instagram"></i> 
+                     <i class="fa-brands fa-square-twitter"></i>
+                     <i class="fa-brands fa-square-facebook"></i>
+                     <i class="fa-brands fa-square-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <h4>My botique01@gmail.com</h4>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
